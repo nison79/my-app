@@ -2,6 +2,7 @@ import React, { useRef,useEffect } from 'react'
 import img from '../assets/640px-React-icon.svg.png'
 import './Landing.css'
 import { gsap } from 'gsap';
+import NotListedLocationIcon from '@material-ui/icons/NotListedLocation';
 
 function Landing() {
 
@@ -67,15 +68,15 @@ function Landing() {
                 <section ref={headerCard} id = 'card' class='card__main'>
                     <ul>
                         <li>
-                            <span></span>
+                            <NotListedLocationIcon style={{ fontSize: 40 }}  className='ul__icon'/>
                             <strong>How can i help you?</strong>
                         </li>
                         <li>
-                            <span></span>
+                            <NotListedLocationIcon style={{ fontSize: 40 }} className='ul__icon'/>
                             <strong>Tell me about your idea...</strong>
                         </li>
                         <li>
-                            <span></span>
+                            <NotListedLocationIcon style={{ fontSize: 40 }} className='ul__icon'/>
                             <strong>Let's communicate</strong>
                         </li>
                     </ul>

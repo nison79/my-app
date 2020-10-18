@@ -100,23 +100,28 @@ body, html {
   }
   
   body main section#card li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    display:flex;
+    
+  }
+
+  .ul__icon{
+      
+      margin-top: 0px;
+      padding:5px;
+      align-items: center;
   }
   
-  body main section#card span {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: #ccdfff;
-    border-radius: 80%;
-    margin-right: 10px;
-    margin-top: 5px;
-  }
-  
+
+
   body main section#card strong {
     display: inline-block;
+    padding-top: 10px;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-bottom: 1px;
+    align-items: center;
+    
+    
   }
   
   body section#primary {
